@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\sodv2101\\Tower Defence Game\\Tower Defence Game\\Tower Defence Game.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\Sodv-2101-final-project-\\Tower Defence Game\\Tower Defence Game\\Tower Defence Game.csproj",
       "projectName": "Tower Defence Game",
-      "projectPath": "C:\\Users\\Admin\\source\\repos\\sodv2101\\Tower Defence Game\\Tower Defence Game\\Tower Defence Game.csproj",
+      "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\Sodv-2101-final-project-\\Tower Defence Game\\Tower Defence Game\\Tower Defence Game.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\source\\repos\\sodv2101\\Tower Defence Game\\Tower Defence Game\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\Sodv-2101-final-project-\\Tower Defence Game\\Tower Defence Game\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

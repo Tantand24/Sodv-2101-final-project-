@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Tower_Defence_Game
 {
-    internal interface GameAsset
+    public abstract class GameAsset
     {
     }
 }
