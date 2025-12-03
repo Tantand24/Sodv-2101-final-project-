@@ -8,8 +8,11 @@ namespace Tower_Defence_Game
 {
     public abstract class Projectiles : GameAsset
     {
-        internal int Damage;
-        internal int speed;
+        protected int Damage;
+        protected int Speed;
+
+        public int GetDamage() { return Damage; }
+        public int GetSpeed() { return Speed; }
     }
 
     public class Arrow : Projectiles
@@ -17,7 +20,19 @@ namespace Tower_Defence_Game
         public Arrow()
         {
             Damage = 20;
-            speed = 20;
+            Speed = 20;
         }
+    }
+    public class CannonBall : Projectiles
+    {
+        private int AreaOfEffect;
+        public CannonBall()
+        {
+            Damage = 25;
+            Speed = 10;
+            AreaOfEffect = 125;
+        }
+
+        public int GetAOE() { return AreaOfEffect; }
     }
 }

@@ -1,0 +1,16 @@
+D:\Bow Valley College\Spring 2025\SODV 2202\StartMenu\StartMenu\bin\Debug\net8.0-windows\StartMenu.exe
+D:\Bow Valley College\Spring 2025\SODV 2202\StartMenu\StartMenu\bin\Debug\net8.0-windows\StartMenu.deps.json
+D:\Bow Valley College\Spring 2025\SODV 2202\StartMenu\StartMenu\bin\Debug\net8.0-windows\StartMenu.runtimeconfig.json
+D:\Bow Valley College\Spring 2025\SODV 2202\StartMenu\StartMenu\bin\Debug\net8.0-windows\StartMenu.dll
+D:\Bow Valley College\Spring 2025\SODV 2202\StartMenu\StartMenu\bin\Debug\net8.0-windows\StartMenu.pdb
+D:\Bow Valley College\Spring 2025\SODV 2202\StartMenu\StartMenu\obj\Debug\net8.0-windows\WinterDefense.FormStartMenu.resources
+D:\Bow Valley College\Spring 2025\SODV 2202\StartMenu\StartMenu\obj\Debug\net8.0-windows\StartMenu.csproj.GenerateResource.cache
+D:\Bow Valley College\Spring 2025\SODV 2202\StartMenu\StartMenu\obj\Debug\net8.0-windows\StartMenu.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bow Valley College\Spring 2025\SODV 2202\StartMenu\StartMenu\obj\Debug\net8.0-windows\StartMenu.AssemblyInfoInputs.cache
+D:\Bow Valley College\Spring 2025\SODV 2202\StartMenu\StartMenu\obj\Debug\net8.0-windows\StartMenu.AssemblyInfo.cs
+D:\Bow Valley College\Spring 2025\SODV 2202\StartMenu\StartMenu\obj\Debug\net8.0-windows\StartMenu.csproj.CoreCompileInputs.cache
+D:\Bow Valley College\Spring 2025\SODV 2202\StartMenu\StartMenu\obj\Debug\net8.0-windows\StartMenu.dll
+D:\Bow Valley College\Spring 2025\SODV 2202\StartMenu\StartMenu\obj\Debug\net8.0-windows\refint\StartMenu.dll
+D:\Bow Valley College\Spring 2025\SODV 2202\StartMenu\StartMenu\obj\Debug\net8.0-windows\StartMenu.pdb
+D:\Bow Valley College\Spring 2025\SODV 2202\StartMenu\StartMenu\obj\Debug\net8.0-windows\StartMenu.genruntimeconfig.cache
+D:\Bow Valley College\Spring 2025\SODV 2202\StartMenu\StartMenu\obj\Debug\net8.0-windows\ref\StartMenu.dll

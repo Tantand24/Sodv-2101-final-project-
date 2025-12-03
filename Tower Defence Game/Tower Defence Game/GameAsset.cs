@@ -8,5 +8,6 @@ namespace Tower_Defence_Game
 {
     public abstract class GameAsset
     {
+
     }
 }

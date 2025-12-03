@@ -9,34 +9,90 @@ namespace Tower_Defence_Game
 {
     public abstract class Towers : GameAsset
     {
-        private int TowerHP { get; set; }
-        private int TowerAttackSpeed { get; set; }
-
-        public abstract object TowerSpecial();
+        protected int TowerHP { get; set; }
 
         public void TakeDamage(Enemys Enemy) 
         {
             TowerHP -= Enemy.GetDamage();
         }
 
-        public void SetHP(int SetHP) { TowerHP = SetHP; }
-        public void SetAttackSpeed(int SetAS) { TowerAttackSpeed = SetAS; }
         public int CheckHP(){ return TowerHP; }
-        public int CheckAttackSpeed() { return TowerAttackSpeed;}
     };
 
-    public class StandardTower : Towers 
+    public abstract class ShootingTower : Towers, ITowerShoot 
     {
-        public StandardTower() {
-            SetHP(100);
-            SetAttackSpeed(1);
-        }
+        protected int TowerAttackSpeed { get; set; }
 
-        public override object TowerSpecial() 
-        {
-            return new Arrow();   
-        }
+        public int CheckAttackSpeed() { return TowerAttackSpeed; }
 
+        public virtual Object TowerShoot() {
+            Projectiles Arrow = new Arrow();
+            return Arrow;
+        }
     };
+    
+    public abstract class BlockerTower : Towers, ITowerRegenHP
+    {
+        protected int regenRate { get; set; }
+        protected int regenAmount { get; set; }
+        protected int maxHP { get; set; }
 
+        public void RegenHP()
+        {
+            if(TowerHP < maxHP)
+            {
+                TowerHP += regenAmount;
+                if(TowerHP > maxHP)
+                {
+                    TowerHP = maxHP;
+                }
+            }
+        }
+    }
+
+    public abstract class MoneyTower : Towers, ITowerGenMoney
+    {
+
+    }
+
+    public class ArcherTower : ShootingTower
+    {
+        public ArcherTower()
+        {
+            TowerHP = 100;
+            TowerAttackSpeed = 10;
+        }
+    }
+    public class CannonTower : ShootingTower
+    {
+        public CannonTower()
+        {
+            TowerHP = 100;
+            TowerAttackSpeed = 5;
+        }
+
+        public override object TowerShoot()
+        {
+            Projectiles CannonBall = new CannonBall();
+            return CannonBall;
+        }
+    }
+    public class WallTower : BlockerTower
+    {
+        public WallTower()
+        {
+            TowerHP = 200;
+            maxHP = 200;
+            regenAmount = 40;
+            regenRate = 25;
+        }
+    }
+
+    public class BankTower : MoneyTower
+    {
+        public BankTower()
+        {
+
+        }
+    }
 }
