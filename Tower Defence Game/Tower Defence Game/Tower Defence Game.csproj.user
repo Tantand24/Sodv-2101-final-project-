@@ -1,9 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Compile Update=".Designer.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Update="Game.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -13,11 +10,23 @@
     <Compile Update="GameMenu.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update=".cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Update="IntroMenu.cs">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="mapAsset\MapComponents\cell.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="mapAsset\MapComponents\Map.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="mapAsset\MapComponents\PopUpBar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="mapAsset\MapComponents\SideLayout.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="mapAsset\MapComponents\topDecoration.cs">
+      <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="TowerUpgrradeMenu.cs">
       <SubType>UserControl</SubType>

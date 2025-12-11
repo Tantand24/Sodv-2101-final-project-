@@ -20,7 +20,9 @@ namespace Tower_Defence_Game
         private void btnStart_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Game starting...");
-            // TODO: Open game form here.
+            Game Game = new Game();
+            Game.Show();
+            this.Hide();
         }
 
         private void btnExit_Click(object sender, EventArgs e)

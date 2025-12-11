@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Tower_Defence_Game
 {
-    public partial class Projectile : Form
+    public partial class topDecoration : UserControl
     {
-        public Projectile()
+        public topDecoration()
         {
             InitializeComponent();
+
+            BackColor = Color.Transparent;
+            Dock = DockStyle.Fill;
+
+            
         }
     }
 }
