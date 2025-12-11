@@ -10,6 +10,7 @@ namespace Tower_Defence_Game
     public abstract class Towers : GameAsset
     {
         protected int TowerHP { get; set; }
+        protected int TowerCost { get; set; }
 
         public void TakeDamage(Enemys Enemy) 
         {
@@ -52,7 +53,13 @@ namespace Tower_Defence_Game
 
     public abstract class MoneyTower : Towers, ITowerGenMoney
     {
+        protected int GenMoneyAmount { get; set; }
+        protected int MoneyRate { get; set; }
 
+        public virtual int TowerGenMoney()
+        {
+            return GenMoneyAmount;
+        }
     }
 
     public class ArcherTower : ShootingTower

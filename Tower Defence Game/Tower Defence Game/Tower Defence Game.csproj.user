@@ -16,6 +16,9 @@
     <Compile Update=".cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="IntroMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="TowerUpgrradeMenu.cs">
       <SubType>UserControl</SubType>
     </Compile>

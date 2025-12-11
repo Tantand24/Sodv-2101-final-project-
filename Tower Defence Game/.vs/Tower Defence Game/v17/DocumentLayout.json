@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Documents\\GitHub\\Sodv-2101-final-project-\\Tower Defence Game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B588F784-0AB7-4A1C-A950-ACD7A885994B}|Tower Defence Game\\Tower Defence Game.csproj|c:\\users\\admin\\documents\\github\\sodv-2101-final-project-\\tower defence game\\tower defence game\\towers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B588F784-0AB7-4A1C-A950-ACD7A885994B}|Tower Defence Game\\Tower Defence Game.csproj|solutionrelative:tower defence game\\towers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B588F784-0AB7-4A1C-A950-ACD7A885994B}|Tower Defence Game\\Tower Defence Game.csproj|c:\\users\\admin\\documents\\github\\sodv-2101-final-project-\\tower defence game\\tower defence game\\projectiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B588F784-0AB7-4A1C-A950-ACD7A885994B}|Tower Defence Game\\Tower Defence Game.csproj|solutionrelative:tower defence game\\projectiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B588F784-0AB7-4A1C-A950-ACD7A885994B}|Tower Defence Game\\Tower Defence Game.csproj|c:\\users\\admin\\documents\\github\\sodv-2101-final-project-\\tower defence game\\tower defence game\\towerspecials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B588F784-0AB7-4A1C-A950-ACD7A885994B}|Tower Defence Game\\Tower Defence Game.csproj|solutionrelative:tower defence game\\towerspecials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B588F784-0AB7-4A1C-A950-ACD7A885994B}|Tower Defence Game\\Tower Defence Game.csproj|c:\\users\\admin\\documents\\github\\sodv-2101-final-project-\\tower defence game\\tower defence game\\towers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B588F784-0AB7-4A1C-A950-ACD7A885994B}|Tower Defence Game\\Tower Defence Game.csproj|solutionrelative:tower defence game\\towers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B588F784-0AB7-4A1C-A950-ACD7A885994B}|Tower Defence Game\\Tower Defence Game.csproj|c:\\users\\admin\\documents\\github\\sodv-2101-final-project-\\tower defence game\\tower defence game\\enemys.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,8 +19,20 @@
       "RelativeMoniker": "D:0:0:{B588F784-0AB7-4A1C-A950-ACD7A885994B}|Tower Defence Game\\Tower Defence Game.csproj|solutionrelative:tower defence game\\gameasset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B588F784-0AB7-4A1C-A950-ACD7A885994B}|Tower Defence Game\\Tower Defence Game.csproj|c:\\users\\admin\\documents\\github\\sodv-2101-final-project-\\tower defence game\\tower defence game\\gamemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B588F784-0AB7-4A1C-A950-ACD7A885994B}|Tower Defence Game\\Tower Defence Game.csproj|solutionrelative:tower defence game\\gamemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B588F784-0AB7-4A1C-A950-ACD7A885994B}|Tower Defence Game\\Tower Defence Game.csproj|c:\\users\\admin\\documents\\github\\sodv-2101-final-project-\\tower defence game\\tower defence game\\intromenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B588F784-0AB7-4A1C-A950-ACD7A885994B}|Tower Defence Game\\Tower Defence Game.csproj|solutionrelative:tower defence game\\intromenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B588F784-0AB7-4A1C-A950-ACD7A885994B}|Tower Defence Game\\Tower Defence Game.csproj|c:\\users\\admin\\documents\\github\\sodv-2101-final-project-\\tower defence game\\tower defence game\\intromenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B588F784-0AB7-4A1C-A950-ACD7A885994B}|Tower Defence Game\\Tower Defence Game.csproj|solutionrelative:tower defence game\\intromenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B588F784-0AB7-4A1C-A950-ACD7A885994B}|Tower Defence Game\\Tower Defence Game.csproj|C:\\Users\\Admin\\Documents\\GitHub\\Sodv-2101-final-project-\\Tower Defence Game\\tower defence game\\gamemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B588F784-0AB7-4A1C-A950-ACD7A885994B}|Tower Defence Game\\Tower Defence Game.csproj|solutionrelative:tower defence game\\gamemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B588F784-0AB7-4A1C-A950-ACD7A885994B}|Tower Defence Game\\Tower Defence Game.csproj|c:\\users\\admin\\documents\\github\\sodv-2101-final-project-\\tower defence game\\tower defence game\\towerspecials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B588F784-0AB7-4A1C-A950-ACD7A885994B}|Tower Defence Game\\Tower Defence Game.csproj|solutionrelative:tower defence game\\towerspecials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B588F784-0AB7-4A1C-A950-ACD7A885994B}|Tower Defence Game\\Tower Defence Game.csproj|C:\\Users\\Admin\\Documents\\GitHub\\Sodv-2101-final-project-\\Tower Defence Game\\tower defence game\\gamemap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -41,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B588F784-0AB7-4A1C-A950-ACD7A885994B}|Tower Defence Game\\Tower Defence Game.csproj|C:\\Users\\Admin\\Documents\\GitHub\\Sodv-2101-final-project-\\Tower Defence Game\\tower defence game\\towerupgrrademenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B588F784-0AB7-4A1C-A950-ACD7A885994B}|Tower Defence Game\\Tower Defence Game.csproj|solutionrelative:tower defence game\\towerupgrrademenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B588F784-0AB7-4A1C-A950-ACD7A885994B}|Tower Defence Game\\Tower Defence Game.csproj|C:\\Users\\Admin\\Documents\\GitHub\\Sodv-2101-final-project-\\Tower Defence Game\\tower defence game\\gamemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B588F784-0AB7-4A1C-A950-ACD7A885994B}|Tower Defence Game\\Tower Defence Game.csproj|solutionrelative:tower defence game\\gamemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,33 +74,58 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
+              "Title": "IntroMenu.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Sodv-2101-final-project-\\Tower Defence Game\\Tower Defence Game\\IntroMenu.cs",
+              "RelativeDocumentMoniker": "Tower Defence Game\\IntroMenu.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\Sodv-2101-final-project-\\Tower Defence Game\\Tower Defence Game\\IntroMenu.cs",
+              "RelativeToolTip": "Tower Defence Game\\IntroMenu.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAgwB0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T19:45:19.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IntroMenu.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Sodv-2101-final-project-\\Tower Defence Game\\Tower Defence Game\\IntroMenu.cs",
+              "RelativeDocumentMoniker": "Tower Defence Game\\IntroMenu.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\Sodv-2101-final-project-\\Tower Defence Game\\Tower Defence Game\\IntroMenu.cs [Design]",
+              "RelativeToolTip": "Tower Defence Game\\IntroMenu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T19:39:50.34Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "TowerSpecials.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Sodv-2101-final-project-\\Tower Defence Game\\Tower Defence Game\\TowerSpecials.cs",
               "RelativeDocumentMoniker": "Tower Defence Game\\TowerSpecials.cs",
               "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\Sodv-2101-final-project-\\Tower Defence Game\\Tower Defence Game\\TowerSpecials.cs",
               "RelativeToolTip": "Tower Defence Game\\TowerSpecials.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAowAsAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAADwvw8AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-04T22:28:19.098Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Projectiles.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Sodv-2101-final-project-\\Tower Defence Game\\Tower Defence Game\\Projectiles.cs",
               "RelativeDocumentMoniker": "Tower Defence Game\\Projectiles.cs",
               "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\Sodv-2101-final-project-\\Tower Defence Game\\Tower Defence Game\\Projectiles.cs",
               "RelativeToolTip": "Tower Defence Game\\Projectiles.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAADwvyYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwCYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-04T21:05:27.711Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": ".cs [Design]",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Sodv-2101-final-project-\\Tower Defence Game\\Tower Defence Game\\.cs",
               "RelativeDocumentMoniker": "Tower Defence Game\\.cs",
@@ -107,32 +136,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "GameAsset.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Sodv-2101-final-project-\\Tower Defence Game\\Tower Defence Game\\GameAsset.cs",
               "RelativeDocumentMoniker": "Tower Defence Game\\GameAsset.cs",
               "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\Sodv-2101-final-project-\\Tower Defence Game\\Tower Defence Game\\GameAsset.cs",
               "RelativeToolTip": "Tower Defence Game\\GameAsset.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-04T19:39:26.185Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "GameMap.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Sodv-2101-final-project-\\Tower Defence Game\\Tower Defence Game\\GameMap.cs",
               "RelativeDocumentMoniker": "Tower Defence Game\\GameMap.cs",
               "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\Sodv-2101-final-project-\\Tower Defence Game\\Tower Defence Game\\GameMap.cs [Design]",
               "RelativeToolTip": "Tower Defence Game\\GameMap.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T04:58:26.311Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-11-03T04:58:26.311Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "TowerUpgrradeMenu.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Sodv-2101-final-project-\\Tower Defence Game\\Tower Defence Game\\TowerUpgrradeMenu.cs",
               "RelativeDocumentMoniker": "Tower Defence Game\\TowerUpgrradeMenu.cs",
@@ -143,57 +171,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GameMenu.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Sodv-2101-final-project-\\Tower Defence Game\\Tower Defence Game\\GameMenu.cs",
-              "RelativeDocumentMoniker": "Tower Defence Game\\GameMenu.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\Sodv-2101-final-project-\\Tower Defence Game\\Tower Defence Game\\GameMenu.cs",
-              "RelativeToolTip": "Tower Defence Game\\GameMenu.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAIwAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T04:52:58.848Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 6,
               "Title": "GameMenu.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Sodv-2101-final-project-\\Tower Defence Game\\Tower Defence Game\\GameMenu.cs",
               "RelativeDocumentMoniker": "Tower Defence Game\\GameMenu.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\sodv2101\\Tower Defence Game\\Tower Defence Game\\GameMenu.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\source\\repos\\sodv2101\\Tower Defence Game\\Tower Defence Game\\GameMenu.cs [Design]",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\Sodv-2101-final-project-\\Tower Defence Game\\Tower Defence Game\\GameMenu.cs [Design]",
+              "RelativeToolTip": "Tower Defence Game\\GameMenu.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T04:52:36.554Z"
+              "WhenOpened": "2025-11-03T04:52:36.554Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Enemys.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Sodv-2101-final-project-\\Tower Defence Game\\Tower Defence Game\\Enemys.cs",
               "RelativeDocumentMoniker": "Tower Defence Game\\Enemys.cs",
               "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\Sodv-2101-final-project-\\Tower Defence Game\\Tower Defence Game\\Enemys.cs",
               "RelativeToolTip": "Tower Defence Game\\Enemys.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAwwDwAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAgwEoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-03T04:48:31.793Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Towers.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Sodv-2101-final-project-\\Tower Defence Game\\Tower Defence Game\\Towers.cs",
               "RelativeDocumentMoniker": "Tower Defence Game\\Towers.cs",
               "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\Sodv-2101-final-project-\\Tower Defence Game\\Tower Defence Game\\Towers.cs",
               "RelativeToolTip": "Tower Defence Game\\Towers.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-03T04:47:40.313Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Game.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Sodv-2101-final-project-\\Tower Defence Game\\Tower Defence Game\\Game.cs",
               "RelativeDocumentMoniker": "Tower Defence Game\\Game.cs",
