@@ -19,3 +19,15 @@ C:\Users\Admin\Documents\GitHub\Sodv-2101-final-project-\Tower Defence Game\Towe
 C:\Users\Admin\Documents\GitHub\Sodv-2101-final-project-\Tower Defence Game\Tower Defence Game\obj\Debug\net9.0-windows\Tower Defence Game.pdb
 C:\Users\Admin\Documents\GitHub\Sodv-2101-final-project-\Tower Defence Game\Tower Defence Game\obj\Debug\net9.0-windows\Tower Defence Game.genruntimeconfig.cache
 C:\Users\Admin\Documents\GitHub\Sodv-2101-final-project-\Tower Defence Game\Tower Defence Game\obj\Debug\net9.0-windows\ref\Tower Defence Game.dll
+C:\Users\Admin\Documents\GitHub\Sodv-2101-final-project-\Tower Defence Game\Tower Defence Game\obj\Debug\net9.0-windows\Tower_Defence_Game.cell.resources
+C:\Users\Admin\Documents\GitHub\Sodv-2101-final-project-\Tower Defence Game\Tower Defence Game\obj\Debug\net9.0-windows\Tower_Defence_Game.Map.resources
+C:\Users\Admin\Documents\GitHub\Sodv-2101-final-project-\Tower Defence Game\Tower Defence Game\obj\Debug\net9.0-windows\Tower_Defence_Game.PopUpBar.resources
+C:\Users\Admin\Documents\GitHub\Sodv-2101-final-project-\Tower Defence Game\Tower Defence Game\obj\Debug\net9.0-windows\Tower_Defence_Game.SideLayout.resources
+C:\Users\Admin\Documents\GitHub\Sodv-2101-final-project-\Tower Defence Game\Tower Defence Game\obj\Debug\net9.0-windows\Tower_Defence_Game.topDecoration.resources
+C:\Users\Admin\Documents\GitHub\Sodv-2101-final-project-\Tower Defence Game\Tower Defence Game\bin\Debug\net9.0-windows\GameAssetImage\decor\house1.png
+C:\Users\Admin\Documents\GitHub\Sodv-2101-final-project-\Tower Defence Game\Tower Defence Game\bin\Debug\net9.0-windows\GameAssetImage\decor\lamp-post.png
+C:\Users\Admin\Documents\GitHub\Sodv-2101-final-project-\Tower Defence Game\Tower Defence Game\bin\Debug\net9.0-windows\GameAssetImage\decor\main-tree.png
+C:\Users\Admin\Documents\GitHub\Sodv-2101-final-project-\Tower Defence Game\Tower Defence Game\bin\Debug\net9.0-windows\GameAssetImage\decor\sky.png
+C:\Users\Admin\Documents\GitHub\Sodv-2101-final-project-\Tower Defence Game\Tower Defence Game\bin\Debug\net9.0-windows\GameAssetImage\decor\small-tree.png
+C:\Users\Admin\Documents\GitHub\Sodv-2101-final-project-\Tower Defence Game\Tower Defence Game\bin\Debug\net9.0-windows\GameAssetImage\decor\snow-tilemap.png
+C:\Users\Admin\Documents\GitHub\Sodv-2101-final-project-\Tower Defence Game\Tower Defence Game\bin\Debug\net9.0-windows\GameAssetImage\decor\snowman.png

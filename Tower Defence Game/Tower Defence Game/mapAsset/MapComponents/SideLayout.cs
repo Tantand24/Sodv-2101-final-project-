@@ -35,7 +35,7 @@ namespace Tower_Defence_Game
             sideLayoutPanel.RowStyles.Add(new RowStyle(SizeType.Percent, 33.3f));
             sideLayoutPanel.RowStyles.Add(new RowStyle(SizeType.Percent, 33.3f));
 
-            string[] images = { "assets/decor/main-tree.png", "assets/decor/snowman.png", "assets/decor/lamp-post.png" };
+            string[] images = { "GameAssetImage/decor/main-tree.png", "GameAssetImage/decor/snowman.png", "GameAssetImage/decor/lamp-post.png" };
 
 
             // add pictureboxes

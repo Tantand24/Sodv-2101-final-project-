@@ -7,7 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using projectpractice.MapComponents;
 
 namespace Tower_Defence_Game
 {
@@ -24,7 +23,7 @@ namespace Tower_Defence_Game
             this.row = row;
             this.column = column;
 
-            Image cellBgImage = Image.FromFile("assets/decor/snow-tilemap.png");
+            Image cellBgImage = Image.FromFile("GameAssetImage/decor/snow-tilemap.png");
             this.BackgroundImage = cellBgImage;
 
             cellPicture = new PictureBox();

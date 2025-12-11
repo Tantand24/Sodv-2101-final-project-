@@ -9,4 +9,38 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="GameAssetImage\decor\house1.png" />
+    <None Remove="GameAssetImage\decor\lamp-post.png" />
+    <None Remove="GameAssetImage\decor\main-tree.png" />
+    <None Remove="GameAssetImage\decor\sky.png" />
+    <None Remove="GameAssetImage\decor\small-tree.png" />
+    <None Remove="GameAssetImage\decor\snow-tilemap.png" />
+    <None Remove="GameAssetImage\decor\snowman.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="GameAssetImage\decor\house1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GameAssetImage\decor\lamp-post.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GameAssetImage\decor\main-tree.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GameAssetImage\decor\sky.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GameAssetImage\decor\small-tree.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GameAssetImage\decor\snow-tilemap.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GameAssetImage\decor\snowman.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
 </Project>
