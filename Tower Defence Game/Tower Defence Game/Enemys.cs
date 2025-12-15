@@ -12,8 +12,11 @@ namespace Tower_Defence_Game
         protected int EnemySpeed { get; set; }
         protected int EnemyDamage { get; set; }
         protected int EnemyAttackSpeed { get; set; }
-        
-        public void TakeDamage(Projectiles projectile) 
+
+        public string SpritePath { get; protected set; }
+
+
+        public void TakeDamage(Projectiles projectile)
         {
             EnemyHP -= projectile.GetDamage();
         }
@@ -26,12 +29,14 @@ namespace Tower_Defence_Game
 
     public class StandardEnemy : Enemys
     {
-        public StandardEnemy() 
-        { 
+        public StandardEnemy()
+        {
             EnemyHP = 100;
             EnemySpeed = 20;
             EnemyDamage = 25;
             EnemyAttackSpeed = 25;
+
+            SpritePath = "GameAssetImage/StandardEnemy.png";
         }
     }
     public class TankEnemy : Enemys
@@ -42,6 +47,8 @@ namespace Tower_Defence_Game
             EnemySpeed = 5;
             EnemyDamage = 75;
             EnemyAttackSpeed = 5;
+
+            SpritePath = "GameAssetImage/TankEnemy.png";
         }
     }
     public class FastEnemy : Enemys
@@ -62,6 +69,8 @@ namespace Tower_Defence_Game
             EnemySpeed = 60;
             EnemyDamage = 15;
             EnemyAttackSpeed = 50;
+
+            SpritePath = "GameAssetImage/FlyerEnemy.png";
         }
     }
     public class BossEnemy : Enemys

@@ -21,6 +21,7 @@ namespace Tower_Defence_Game
 
             //create map
             Map mainMap = new Map();
+            GlobalGameValues.CurrentMap = mainMap;
             gameLayout.Controls.Add(mainMap, 1, 1);
 
             //create popUpBar

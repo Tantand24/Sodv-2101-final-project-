@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Timer = System.Windows.Forms.Timer;
 
 namespace Tower_Defence_Game
 {
@@ -16,6 +17,10 @@ namespace Tower_Defence_Game
         int row;
         int column;
         bool isEmpty = true;
+        private Timer? fireTimer;
+        public Towers? Tower { get; private set; }
+
+
         public cell(int row, int column)
         {
             InitializeComponent();
@@ -63,7 +68,8 @@ namespace Tower_Defence_Game
             //if cell is empty, we wanna create towers
             if (isEmpty)
             {
-                towerList = new List<string> { "Splash Tower", "Aerial Tower", "Archer Tower"};
+                towerList = new List<string> { "Archer Tower", "Cannon Tower", "Wall Tower", "Bank Tower" };
+
             }
             else //if not empty we want to remove towers, we can implement move if time allows for it
             {
@@ -94,28 +100,55 @@ namespace Tower_Defence_Game
 
         private void StartFiring()
         {
-            // TODO: implement how your tower actually shoots:
-            // - start a Timer on this cell
-            // - or set a bool flag and let a global update loop query it
-            Console.WriteLine($"Tower at row {row}, col {column} START firing");
+            if (Tower == null) return;
+            if (fireTimer != null) return;
+
+            fireTimer = new Timer();
+            fireTimer.Interval = 250;
+
+            fireTimer.Tick += (_, __) =>
+            {
+                if (Tower is ShootingTower shooter)
+                {
+                    // Your TowerShoot returns Object, so cast it
+                    //make projecctile spawn on cell then move to
+                    var projObj = shooter.TowerShoot();
+                    if (projObj is Projectiles projectile)
+                    {
+                        GlobalGameValues.CurrentMap?.TryHitEnemy(this.row, projectile);
+                    }
+                }
+            };
+
+            fireTimer.Start();
         }
+
 
         private void StopFiring()
         {
-            // TODO: stop whatever you did in StartFiring (Timer, flag, etc.)
-            Console.WriteLine($"Tower at row {row}, col {column} STOP firing");
+            if (fireTimer == null) return;
+
+            fireTimer.Stop();
+            fireTimer.Dispose();
+            fireTimer = null;
         }
 
-        public void setToNotEmpty(Image img)
+
+        public void setToNotEmpty(Image img, Towers tower)
         {
+            Tower = tower;
             cellPicture.Image = img;
             this.isEmpty = false;
         }
 
         public void setToEmpty()
         {
+            StopFiring();
+            Tower = null;
+            cellPicture.Image = null;
             this.isEmpty = true;
         }
+
 
         private void paintCell()
         {

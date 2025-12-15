@@ -66,32 +66,42 @@ namespace Tower_Defence_Game
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-
-            //execute action
             string value = comboBox1.SelectedItem?.ToString();
+            if (value == null || currentCell == null) return;
 
-            //just for testing, as long as its not == Remove Tower, we'll spawn same, we will chnage later
-            if(value != "Remove Tower")
+            if (value == "Remove Tower")
             {
-                //create new tower and place in cell
-                Image cellImage = Image.FromFile("assets/towers/Archer tower.jpg");
-                currentCell.setToNotEmpty(cellImage);
+                currentCell.setToEmpty();
             }
             else
             {
-                //remove tower ??
+                // 1️⃣ Create tower LOGIC
+                Towers tower = value switch
+                {
+                    "Archer Tower" => new ArcherTower(),
+                    "Cannon Tower" => new CannonTower(),
+                    "Wall Tower" => new WallTower(),
+                    "Bank Tower" => new BankTower(),
+                    _ => new ArcherTower()
+                };
 
-                //reset cell to empty
-                currentCell.setToEmpty();
+                // 2️⃣ Pick tower IMAGE (visual only)
+                Image img = value switch
+                {
+                    "Archer Tower" => Image.FromFile("GameAssetImage/Archer tower.jpg"),
+                    "Cannon Tower" => Image.FromFile("GameAssetImage/Cannon tower.jpg"),
+                    "Wall Tower" => Image.FromFile("GameAssetImage/Blocker tower.jpg"),
+                    "Bank Tower" => Image.FromFile("GameAssetImage/money tower.jpg"),
+                    _ => Image.FromFile("assets/towers/archer.png")
+                };
+
+                // 3️⃣ Place tower into the cell
+                currentCell.setToNotEmpty(img, tower);
             }
 
-            // show action
-            MessageBox.Show($"You selected: {value}", "Tower Selected");
-            
-
-            //hide bar
             this.Hide();
             currentCell = null;
         }
+
     }
 }

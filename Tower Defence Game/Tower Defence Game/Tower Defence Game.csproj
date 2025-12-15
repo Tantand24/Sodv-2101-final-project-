@@ -10,6 +10,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="GameAssetImage\Archer tower.jpg" />
+    <None Remove="GameAssetImage\Blocker tower.jpg" />
+    <None Remove="GameAssetImage\Cannon tower.jpg" />
     <None Remove="GameAssetImage\decor\house1.png" />
     <None Remove="GameAssetImage\decor\lamp-post.png" />
     <None Remove="GameAssetImage\decor\main-tree.png" />
@@ -17,9 +20,21 @@
     <None Remove="GameAssetImage\decor\small-tree.png" />
     <None Remove="GameAssetImage\decor\snow-tilemap.png" />
     <None Remove="GameAssetImage\decor\snowman.png" />
+    <None Remove="GameAssetImage\FlyerEnemy.png" />
+    <None Remove="GameAssetImage\StandardEnemy.png" />
+    <None Remove="GameAssetImage\TankEnemy.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="GameAssetImage\Archer tower.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GameAssetImage\Blocker tower.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GameAssetImage\Cannon tower.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="GameAssetImage\decor\house1.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -39,6 +54,15 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="GameAssetImage\decor\snowman.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GameAssetImage\FlyerEnemy.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GameAssetImage\StandardEnemy.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GameAssetImage\TankEnemy.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

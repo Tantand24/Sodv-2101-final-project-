@@ -92,7 +92,7 @@ namespace Tower_Defence_Game
             maxHP = 200;
             regenAmount = 40;
             regenRate = 25;
-            image = Image.FromFile("GameAsset/Blocker");
+            image = Image.FromFile("GameAssetImage/Blocker tower.jpg");
         }
     }
 

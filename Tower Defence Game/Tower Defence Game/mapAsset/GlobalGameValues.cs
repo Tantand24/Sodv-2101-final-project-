@@ -8,17 +8,16 @@ namespace Tower_Defence_Game
 {
     internal static class GlobalGameValues
     {
-        //we'll implement the event listener here
         private static int coins = 200;
 
         private static PopUpBar bar = PopUpBar.initPopUpBar();
 
+        // Global reference to the active map (set once when Map is created)
+        public static Map? CurrentMap { get; set; }
+
         public static PopUpBar PopUpBar
         {
-            get
-            {
-                return bar;
-            }
+            get { return bar; }
         }
 
         public static int getCoins()
@@ -30,6 +29,5 @@ namespace Tower_Defence_Game
         {
             coins += value;
         }
-
     }
 }
